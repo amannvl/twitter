@@ -12,7 +12,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 print(SECRET_KEY)
 # SECRET_KEY = get_env_variable('SECRET_KEY')
 
-# *n*f0zqlu+cgn&m*sd3^qkz9b=nw6db(tfo$156o9ag-%2f_eq
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -70,9 +70,9 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'twitter',
-            'USER': 'twitteruser',
-            'PASSWORD': 'Aman@3499',
+            'NAME': '',
+            'USER': '',
+            'PASSWORD': '',
             'HOST': 'localhost',
             'PORT': '5432'
     }
